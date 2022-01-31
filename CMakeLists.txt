@@ -4,4 +4,4 @@ project(Memo VERSION 0.1.0)
 add_subdirectory(backend)
 
 add_executable(Memo main.cpp)
-target_link_libraries(Memo backend)
+target_link_libraries(Memo memback)
